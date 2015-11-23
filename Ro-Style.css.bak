@@ -1,0 +1,59 @@
+.login {
+	background: black;
+}
+
+#login {
+	width: 782px;
+}
+
+h1 a {
+	background: url(images/ceres.jpg) no-repeat;
+	width: 782px;
+	height: 160px;
+}
+
+#login form {
+	width: 762px;
+}
+
+p.cpwelcome {
+	border-bottom: thin solid white;
+}
+
+ul.romenu {
+	margin: 0;
+	padding: 0;
+	bottom: 0;
+	left: 20px;
+	width: 90%;
+	}
+
+ul.romenu li {
+	display: inline;
+	margin: 0;
+	}
+
+ul.romenu,
+ul.romenu li a {
+	padding: 5px 15px 6px;
+	}
+
+ul.romenu li a {
+	font-size: 1em;
+	color: white;
+	border-bottom: medium solid white;
+	margin: 0;
+	}
+
+ul.romenu li a:hover {
+	background: transparent;
+	color: white !important;
+	text-decoration: none !important;
+	}
+
+ul.romenu li.current_page_item a,
+ul.romenu li.current_page_item a:hover {
+	color: white !important;
+	background: transparent;
+	text-decoration: none !important;
+	}
